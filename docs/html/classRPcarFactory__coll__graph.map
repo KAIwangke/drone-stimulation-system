@@ -1,0 +1,4 @@
+<map id="RPcarFactory" name="RPcarFactory">
+<area shape="rect" id="node1" title="this class is for the RPcarFactory" alt="" coords="8,80,115,107"/>
+<area shape="rect" id="node2" href="$classIEntityFactory.html" title="this class is for the IEntityFactory" alt="" coords="5,5,117,32"/>
+</map>

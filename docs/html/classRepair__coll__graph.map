@@ -1,0 +1,4 @@
+<map id="Repair" name="Repair">
+<area shape="rect" id="node1" title="A class Represents a repair station in a physical system." alt="" coords="5,80,69,107"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="this class is the Abstract class for all entitys" alt="" coords="5,5,69,32"/>
+</map>

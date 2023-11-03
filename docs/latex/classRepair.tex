@@ -1,0 +1,278 @@
+\hypertarget{classRepair}{}\doxysection{Repair Class Reference}
+\label{classRepair}\index{Repair@{Repair}}
+
+
+A class Represents a repair station in a physical system.  
+
+
+
+
+{\ttfamily \#include $<$Repair.\+h$>$}
+
+
+
+Inheritance diagram for Repair\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classRepair__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Repair\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classRepair__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRepair_ab7e7c5baf47debe82927f0bb58d650f0}{Repair}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em Parameter constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRepair_a4d61c7cba5e4ae6d90a644ad3184da53}\label{classRepair_a4d61c7cba5e4ae6d90a644ad3184da53}} 
+\mbox{\hyperlink{classRepair_a4d61c7cba5e4ae6d90a644ad3184da53}{$\sim$\+Repair}} () override=default
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRepair_aefa3f2f953990e5eb58916bea470dd13}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the repair position. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRepair_aad9ae0d4325a5df209fa15daa873a8b0}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Get the Direction of the repair. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRepair_a079bb076fc2a376c67f7d866c8a87b1a}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Get the Destination of the repair. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRepair_aada58214eafa42787f71300985178909}\label{classRepair_aada58214eafa42787f71300985178909}} 
+Json\+Object \mbox{\hyperlink{classRepair_aada58214eafa42787f71300985178909}{Get\+Details}} () const override
+\begin{DoxyCompactList}\small\item\em Get the details of the repair. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classRepair_ab0487b651024601ea8601013401fee14}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Get the speed of the repair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRepair_af33d921888b86ed0e61577a3e657efc1}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the position for repair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRepair_ac9a29fd9c789828e4ecaeb98e322e649}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Direction for repair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRepair_a2d77b4e5e9327d22500fb57ab920c3c6}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Destination for repair. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRepair_a11cf2b647ffdbe697cda1d4cafc46110}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotate the repair with angles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRepair_a3261d62344b399e7d71a517ee6c568de}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Update the details for entitys iin scheduler. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classRepair_a10bed8a7035ececbc4906affac6acb57}{Random}} (float Min, float Max)
+\begin{DoxyCompactList}\small\item\em Generate random number with in range. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRepair_a80e52e92261ba6305063bbe06ecee8ef}\label{classRepair_a80e52e92261ba6305063bbe06ecee8ef}} 
+void \mbox{\hyperlink{classRepair_a80e52e92261ba6305063bbe06ecee8ef}{Set\+New\+Destination}} ()
+\begin{DoxyCompactList}\small\item\em Set the new Destination for repair. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A class Represents a repair station in a physical system. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRepair_ab7e7c5baf47debe82927f0bb58d650f0}\label{classRepair_ab7e7c5baf47debe82927f0bb58d650f0}} 
+\index{Repair@{Repair}!Repair@{Repair}}
+\index{Repair@{Repair}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{Repair()}{Repair()}}
+{\footnotesize\ttfamily Repair\+::\+Repair (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Parameter constructor. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em obj} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRepair_a079bb076fc2a376c67f7d866c8a87b1a}\label{classRepair_a079bb076fc2a376c67f7d866c8a87b1a}} 
+\index{Repair@{Repair}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Repair\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the Destination of the repair. 
+
+\begin{DoxyReturn}{Returns}
+return the destination for repair 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_aad9ae0d4325a5df209fa15daa873a8b0}\label{classRepair_aad9ae0d4325a5df209fa15daa873a8b0}} 
+\index{Repair@{Repair}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Repair\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the Direction of the repair. 
+
+\begin{DoxyReturn}{Returns}
+return the direction of the repair. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_aefa3f2f953990e5eb58916bea470dd13}\label{classRepair_aefa3f2f953990e5eb58916bea470dd13}} 
+\index{Repair@{Repair}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Repair\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the repair position. 
+
+\begin{DoxyReturn}{Returns}
+return the position of the repair. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_ab0487b651024601ea8601013401fee14}\label{classRepair_ab0487b651024601ea8601013401fee14}} 
+\index{Repair@{Repair}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Repair\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the speed of the repair. 
+
+\begin{DoxyReturn}{Returns}
+speed 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_a10bed8a7035ececbc4906affac6acb57}\label{classRepair_a10bed8a7035ececbc4906affac6acb57}} 
+\index{Repair@{Repair}!Random@{Random}}
+\index{Random@{Random}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{Random()}{Random()}}
+{\footnotesize\ttfamily float Repair\+::\+Random (\begin{DoxyParamCaption}\item[{float}]{Min,  }\item[{float}]{Max }\end{DoxyParamCaption})}
+
+
+
+Generate random number with in range. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Min} & \\
+\hline
+{\em Max} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRepair_a11cf2b647ffdbe697cda1d4cafc46110}\label{classRepair_a11cf2b647ffdbe697cda1d4cafc46110}} 
+\index{Repair@{Repair}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Repair\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotate the repair with angles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_a2d77b4e5e9327d22500fb57ab920c3c6}\label{classRepair_a2d77b4e5e9327d22500fb57ab920c3c6}} 
+\index{Repair@{Repair}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Repair\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set the Destination for repair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_ac9a29fd9c789828e4ecaeb98e322e649}\label{classRepair_ac9a29fd9c789828e4ecaeb98e322e649}} 
+\index{Repair@{Repair}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Repair\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set the Direction for repair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_af33d921888b86ed0e61577a3e657efc1}\label{classRepair_af33d921888b86ed0e61577a3e657efc1}} 
+\index{Repair@{Repair}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Repair\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set the position for repair. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRepair_a3261d62344b399e7d71a517ee6c568de}\label{classRepair_a3261d62344b399e7d71a517ee6c568de}} 
+\index{Repair@{Repair}!Update@{Update}}
+\index{Update@{Update}!Repair@{Repair}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Repair\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the details for entitys iin scheduler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & \\
+\hline
+{\em scheduler} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/felix/\+Desktop/umn-\/csci-\/3081-\/\+F22/\+Team-\/010-\/37-\/homework04-\/main/libs/transit/include/Repair.\+h\item 
+/home/felix/\+Desktop/umn-\/csci-\/3081-\/\+F22/\+Team-\/010-\/37-\/homework04-\/main/libs/transit/src/Repair.\+cc\end{DoxyCompactItemize}

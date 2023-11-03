@@ -1,0 +1,332 @@
+\hypertarget{classAvatar}{}\doxysection{Avatar Class Reference}
+\label{classAvatar}\index{Avatar@{Avatar}}
+
+
+Inheritance diagram for Avatar\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classAvatar__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Avatar\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classAvatar__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAvatar_a6806e726072a2678efd89c53d798a458}{Avatar}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em Parameter constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAvatar_a2e0082be6577bc47c5d0ba5101f5d1d7}\label{classAvatar_a2e0082be6577bc47c5d0ba5101f5d1d7}} 
+\mbox{\hyperlink{classAvatar_a2e0082be6577bc47c5d0ba5101f5d1d7}{$\sim$\+Avatar}} () override=default
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classAvatar_ad0764bc5d537d338da6857611bc24ab6}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Get position. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classAvatar_ab2ad2bf9c6ee9c005e5f33115aba1ebe}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Get direction. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classAvatar_a4f085f0d2b5cb80f5379f8b5db02c1b9}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Get destination. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classAvatar_a11fb8053d7fea8986c2512d6486520ac}{Get\+Availability}} () const
+\begin{DoxyCompactList}\small\item\em Get availability. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classAvatar_a02a8b22e626a9f82d03ef0f601124e63}{Get\+Details}} () const override
+\begin{DoxyCompactList}\small\item\em Get details. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classAvatar_aaa2605c614b2dcc8cfc5a9a95968686d}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Get speed. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classAvatar_a97021cdea42347eef64f8c2e215c6618}{Get\+Strategy\+Name}} ()
+\begin{DoxyCompactList}\small\item\em Get strategy name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_affcf94506987fdf6a12798cc09152225}{Set\+Availability}} (bool choice)
+\begin{DoxyCompactList}\small\item\em Set availability. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_a6f7cbba8358f1870bb483df6eee5d62a}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set position. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_ae5f1954e3e914b0916b0140cea33cc83}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set direction. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_a0fa5aba1541eb440a87b05c78b3d7813}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set destination. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_a8327413bac899adf32fbdc39ca6fb41f}{Set\+Strategy\+Name}} (std\+::string strategy\+Name\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set strategy\+Name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_a243fce927c1761c42c052d007e3aff6a}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotate the object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classAvatar_a9c22856aaba790b2684ecae77af155b9}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Update the variable. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAvatar_a6806e726072a2678efd89c53d798a458}\label{classAvatar_a6806e726072a2678efd89c53d798a458}} 
+\index{Avatar@{Avatar}!Avatar@{Avatar}}
+\index{Avatar@{Avatar}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{Avatar()}{Avatar()}}
+{\footnotesize\ttfamily Avatar\+::\+Avatar (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Parameter constructor. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAvatar_a11fb8053d7fea8986c2512d6486520ac}\label{classAvatar_a11fb8053d7fea8986c2512d6486520ac}} 
+\index{Avatar@{Avatar}!GetAvailability@{GetAvailability}}
+\index{GetAvailability@{GetAvailability}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetAvailability()}{GetAvailability()}}
+{\footnotesize\ttfamily bool Avatar\+::\+Get\+Availability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get availability. 
+
+\begin{DoxyReturn}{Returns}
+status available 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a4f085f0d2b5cb80f5379f8b5db02c1b9}\label{classAvatar_a4f085f0d2b5cb80f5379f8b5db02c1b9}} 
+\index{Avatar@{Avatar}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Avatar\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get destination. 
+
+\begin{DoxyReturn}{Returns}
+destination 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a02a8b22e626a9f82d03ef0f601124e63}\label{classAvatar_a02a8b22e626a9f82d03ef0f601124e63}} 
+\index{Avatar@{Avatar}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object Avatar\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Get details. 
+
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_ab2ad2bf9c6ee9c005e5f33115aba1ebe}\label{classAvatar_ab2ad2bf9c6ee9c005e5f33115aba1ebe}} 
+\index{Avatar@{Avatar}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Avatar\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get direction. 
+
+\begin{DoxyReturn}{Returns}
+direction 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_ad0764bc5d537d338da6857611bc24ab6}\label{classAvatar_ad0764bc5d537d338da6857611bc24ab6}} 
+\index{Avatar@{Avatar}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} Avatar\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get position. 
+
+\begin{DoxyReturn}{Returns}
+position 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_aaa2605c614b2dcc8cfc5a9a95968686d}\label{classAvatar_aaa2605c614b2dcc8cfc5a9a95968686d}} 
+\index{Avatar@{Avatar}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float Avatar\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get speed. 
+
+\begin{DoxyReturn}{Returns}
+speed 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a97021cdea42347eef64f8c2e215c6618}\label{classAvatar_a97021cdea42347eef64f8c2e215c6618}} 
+\index{Avatar@{Avatar}!GetStrategyName@{GetStrategyName}}
+\index{GetStrategyName@{GetStrategyName}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{GetStrategyName()}{GetStrategyName()}}
+{\footnotesize\ttfamily std\+::string Avatar\+::\+Get\+Strategy\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get strategy name. 
+
+\begin{DoxyReturn}{Returns}
+strategy\+Name 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a243fce927c1761c42c052d007e3aff6a}\label{classAvatar_a243fce927c1761c42c052d007e3aff6a}} 
+\index{Avatar@{Avatar}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void Avatar\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotate the object. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em dt} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_affcf94506987fdf6a12798cc09152225}\label{classAvatar_affcf94506987fdf6a12798cc09152225}} 
+\index{Avatar@{Avatar}!SetAvailability@{SetAvailability}}
+\index{SetAvailability@{SetAvailability}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{SetAvailability()}{SetAvailability()}}
+{\footnotesize\ttfamily void Avatar\+::\+Set\+Availability (\begin{DoxyParamCaption}\item[{bool}]{choice }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Set availability. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em choice} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a0fa5aba1541eb440a87b05c78b3d7813}\label{classAvatar_a0fa5aba1541eb440a87b05c78b3d7813}} 
+\index{Avatar@{Avatar}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void Avatar\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set destination. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em des\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_ae5f1954e3e914b0916b0140cea33cc83}\label{classAvatar_ae5f1954e3e914b0916b0140cea33cc83}} 
+\index{Avatar@{Avatar}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void Avatar\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set direction. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em dir\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a6f7cbba8358f1870bb483df6eee5d62a}\label{classAvatar_a6f7cbba8358f1870bb483df6eee5d62a}} 
+\index{Avatar@{Avatar}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void Avatar\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set position. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em pos\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a8327413bac899adf32fbdc39ca6fb41f}\label{classAvatar_a8327413bac899adf32fbdc39ca6fb41f}} 
+\index{Avatar@{Avatar}!SetStrategyName@{SetStrategyName}}
+\index{SetStrategyName@{SetStrategyName}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{SetStrategyName()}{SetStrategyName()}}
+{\footnotesize\ttfamily void Avatar\+::\+Set\+Strategy\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{strategy\+Name\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set strategy\+Name. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em strategy\+Name\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classAvatar_a9c22856aaba790b2684ecae77af155b9}\label{classAvatar_a9c22856aaba790b2684ecae77af155b9}} 
+\index{Avatar@{Avatar}!Update@{Update}}
+\index{Update@{Update}!Avatar@{Avatar}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Avatar\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the variable. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em dt} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em scheduler} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/su000111/csci-\/3081w-\/f22/\+Team-\/010-\/37-\/lab10/libs/transit/include/Avatar.\+h\item 
+/home/su000111/csci-\/3081w-\/f22/\+Team-\/010-\/37-\/lab10/libs/transit/src/Avatar.\+cc\end{DoxyCompactItemize}

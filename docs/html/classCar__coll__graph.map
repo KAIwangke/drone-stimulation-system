@@ -1,0 +1,4 @@
+<map id="Car" name="Car">
+<area shape="rect" id="node1" title="this class is for Car entity" alt="" coords="15,80,59,107"/>
+<area shape="rect" id="node2" href="$classIEntity.html" title="this class is the Abstract class for all entitys" alt="" coords="5,5,69,32"/>
+</map>

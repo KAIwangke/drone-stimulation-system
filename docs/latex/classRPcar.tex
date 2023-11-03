@@ -1,0 +1,375 @@
+\hypertarget{classRPcar}{}\doxysection{R\+Pcar Class Reference}
+\label{classRPcar}\index{RPcar@{RPcar}}
+
+
+A class Represents a repair car in a physical system.  
+
+
+
+
+{\ttfamily \#include $<$R\+Pcar.\+h$>$}
+
+
+
+Inheritance diagram for R\+Pcar\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classRPcar__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for R\+Pcar\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{classRPcar__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classRPcar_acfae5d3b0a00718bdfeeb527802be2c5}{R\+Pcar}} (Json\+Object \&obj)
+\begin{DoxyCompactList}\small\item\em Parameter constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRPcar_a1718dab5512e0993fe972e51bae3206c}\label{classRPcar_a1718dab5512e0993fe972e51bae3206c}} 
+\mbox{\hyperlink{classRPcar_a1718dab5512e0993fe972e51bae3206c}{$\sim$\+R\+Pcar}} ()
+\begin{DoxyCompactList}\small\item\em Destructor. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classRPcar_a29d7613901cbde69ac42e7c6b85de1e1}{Get\+Speed}} () const
+\begin{DoxyCompactList}\small\item\em Get the speed of Rpcar. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRPcar_a0c0b91e1653657a42f4829611d56d4c3}{Get\+Position}} () const
+\begin{DoxyCompactList}\small\item\em Gets the Rpcar Rpcar. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRPcar_ae99111def689bad7a9a85fc0421fdcd1}{Get\+Direction}} () const
+\begin{DoxyCompactList}\small\item\em Get the Direction of the Rpcar. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classVector3}{Vector3}} \mbox{\hyperlink{classRPcar_aa3f8441161fab7632528f3f1e568d2d1}{Get\+Destination}} () const
+\begin{DoxyCompactList}\small\item\em Get the Destination of the Rpcar. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classRPcar_a06ac80d8a9bb4dabddb8bf5e21acd73c}{Get\+Color}} () const
+\begin{DoxyCompactList}\small\item\em Get the color of the Rpcar. \end{DoxyCompactList}\item 
+Json\+Object \mbox{\hyperlink{classRPcar_acbcb46228fb71826b7ca2c0f8dbd24c3}{Get\+Details}} () const
+\begin{DoxyCompactList}\small\item\em Get the details of the Rpcar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classRPcar_a76911f415c42c6cdfbd381fc77986b29}{Get\+Availability}} () const
+\begin{DoxyCompactList}\small\item\em Get the available of the Rpcar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_a896ccfdeba12a83273b07eeb5ecb2c18}{Get\+Nearest\+Entity}} (std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Get the entity in scheduler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_a22ff4d3b793a21cc7a99e0fcdf85a1b2}{Update}} (double dt, std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$ scheduler)
+\begin{DoxyCompactList}\small\item\em Update the details for entitys iin scheduler. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_a4ab53a56d45b70e57c55d9d8fad3824f}{Set\+Position}} (\mbox{\hyperlink{classVector3}{Vector3}} pos\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the position for Rpcar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_a326879f7ccfbf852f685dc472ac1909c}{Set\+Direction}} (\mbox{\hyperlink{classVector3}{Vector3}} dir\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Direction for Rpcar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_a1d2ef4287321a4cce5ea36f0fd4e3aa6}{Set\+Destination}} (\mbox{\hyperlink{classVector3}{Vector3}} des\+\_\+)
+\begin{DoxyCompactList}\small\item\em Set the Destination for Rpcar. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classRPcar_a5d382b4ddc6f0151d8c814d7d5c26f1c}{Getisrpcar}} ()
+\begin{DoxyCompactList}\small\item\em Get the isrpcar for Rpcar. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_a9bc8518399ed53803d7103bda988c703}{Rotate}} (double angle)
+\begin{DoxyCompactList}\small\item\em Rotate the Rpcar with angles. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classRPcar_ac5e6e4244d15e02a4557023044c3c8f6}{Jump}} (double height)
+\begin{DoxyCompactList}\small\item\em make the Rpcar jump with the heigth \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classRPcar_ad46a3c6f63b262d93ab4ce35bce74008}\label{classRPcar_ad46a3c6f63b262d93ab4ce35bce74008}} 
+{\bfseries R\+Pcar} (const \mbox{\hyperlink{classRPcar}{R\+Pcar}} \&\mbox{\hyperlink{classRPcar}{R\+Pcar}})=delete
+\item 
+\mbox{\Hypertarget{classRPcar_a118c54114a1175c4620b19d13ebf0db4}\label{classRPcar_a118c54114a1175c4620b19d13ebf0db4}} 
+\mbox{\hyperlink{classRPcar}{R\+Pcar}} \& {\bfseries operator=} (const \mbox{\hyperlink{classRPcar}{R\+Pcar}} \&\mbox{\hyperlink{classRPcar}{R\+Pcar}})=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+A class Represents a repair car in a physical system. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classRPcar_acfae5d3b0a00718bdfeeb527802be2c5}\label{classRPcar_acfae5d3b0a00718bdfeeb527802be2c5}} 
+\index{RPcar@{RPcar}!RPcar@{RPcar}}
+\index{RPcar@{RPcar}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{RPcar()}{RPcar()}}
+{\footnotesize\ttfamily R\+Pcar\+::\+R\+Pcar (\begin{DoxyParamCaption}\item[{Json\+Object \&}]{obj }\end{DoxyParamCaption})}
+
+
+
+Parameter constructor. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em obj} & \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classRPcar_a76911f415c42c6cdfbd381fc77986b29}\label{classRPcar_a76911f415c42c6cdfbd381fc77986b29}} 
+\index{RPcar@{RPcar}!GetAvailability@{GetAvailability}}
+\index{GetAvailability@{GetAvailability}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetAvailability()}{GetAvailability()}}
+{\footnotesize\ttfamily bool R\+Pcar\+::\+Get\+Availability (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the available of the Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+return the available Rpcar 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a06ac80d8a9bb4dabddb8bf5e21acd73c}\label{classRPcar_a06ac80d8a9bb4dabddb8bf5e21acd73c}} 
+\index{RPcar@{RPcar}!GetColor@{GetColor}}
+\index{GetColor@{GetColor}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetColor()}{GetColor()}}
+{\footnotesize\ttfamily std\+::string R\+Pcar\+::\+Get\+Color (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the color of the Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+return the color Rpcar 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_aa3f8441161fab7632528f3f1e568d2d1}\label{classRPcar_aa3f8441161fab7632528f3f1e568d2d1}} 
+\index{RPcar@{RPcar}!GetDestination@{GetDestination}}
+\index{GetDestination@{GetDestination}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetDestination()}{GetDestination()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} R\+Pcar\+::\+Get\+Destination (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the Destination of the Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+return the destination for Rpcar 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_acbcb46228fb71826b7ca2c0f8dbd24c3}\label{classRPcar_acbcb46228fb71826b7ca2c0f8dbd24c3}} 
+\index{RPcar@{RPcar}!GetDetails@{GetDetails}}
+\index{GetDetails@{GetDetails}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetDetails()}{GetDetails()}}
+{\footnotesize\ttfamily Json\+Object R\+Pcar\+::\+Get\+Details (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the details of the Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+return the details Rpcar 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_ae99111def689bad7a9a85fc0421fdcd1}\label{classRPcar_ae99111def689bad7a9a85fc0421fdcd1}} 
+\index{RPcar@{RPcar}!GetDirection@{GetDirection}}
+\index{GetDirection@{GetDirection}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetDirection()}{GetDirection()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} R\+Pcar\+::\+Get\+Direction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the Direction of the Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+return the direction of the Rpcar. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a5d382b4ddc6f0151d8c814d7d5c26f1c}\label{classRPcar_a5d382b4ddc6f0151d8c814d7d5c26f1c}} 
+\index{RPcar@{RPcar}!Getisrpcar@{Getisrpcar}}
+\index{Getisrpcar@{Getisrpcar}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{Getisrpcar()}{Getisrpcar()}}
+{\footnotesize\ttfamily int R\+Pcar\+::\+Getisrpcar (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the isrpcar for Rpcar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a896ccfdeba12a83273b07eeb5ecb2c18}\label{classRPcar_a896ccfdeba12a83273b07eeb5ecb2c18}} 
+\index{RPcar@{RPcar}!GetNearestEntity@{GetNearestEntity}}
+\index{GetNearestEntity@{GetNearestEntity}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetNearestEntity()}{GetNearestEntity()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Get\+Nearest\+Entity (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})}
+
+
+
+Get the entity in scheduler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em scheduler} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classRPcar_a0c0b91e1653657a42f4829611d56d4c3}\label{classRPcar_a0c0b91e1653657a42f4829611d56d4c3}} 
+\index{RPcar@{RPcar}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classVector3}{Vector3}} R\+Pcar\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Gets the Rpcar Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+return the position of the Rpcar. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a29d7613901cbde69ac42e7c6b85de1e1}\label{classRPcar_a29d7613901cbde69ac42e7c6b85de1e1}} 
+\index{RPcar@{RPcar}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily float R\+Pcar\+::\+Get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Get the speed of Rpcar. 
+
+\begin{DoxyReturn}{Returns}
+the value of speed. 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_ac5e6e4244d15e02a4557023044c3c8f6}\label{classRPcar_ac5e6e4244d15e02a4557023044c3c8f6}} 
+\index{RPcar@{RPcar}!Jump@{Jump}}
+\index{Jump@{Jump}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{Jump()}{Jump()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Jump (\begin{DoxyParamCaption}\item[{double}]{height }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+make the Rpcar jump with the heigth 
+
+
+\begin{DoxyParams}{Parameters}
+{\em height} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a9bc8518399ed53803d7103bda988c703}\label{classRPcar_a9bc8518399ed53803d7103bda988c703}} 
+\index{RPcar@{RPcar}!Rotate@{Rotate}}
+\index{Rotate@{Rotate}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{Rotate()}{Rotate()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Rotate (\begin{DoxyParamCaption}\item[{double}]{angle }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Rotate the Rpcar with angles. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em angle} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a1d2ef4287321a4cce5ea36f0fd4e3aa6}\label{classRPcar_a1d2ef4287321a4cce5ea36f0fd4e3aa6}} 
+\index{RPcar@{RPcar}!SetDestination@{SetDestination}}
+\index{SetDestination@{SetDestination}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{SetDestination()}{SetDestination()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Set\+Destination (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{des\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set the Destination for Rpcar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em des\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a326879f7ccfbf852f685dc472ac1909c}\label{classRPcar_a326879f7ccfbf852f685dc472ac1909c}} 
+\index{RPcar@{RPcar}!SetDirection@{SetDirection}}
+\index{SetDirection@{SetDirection}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{SetDirection()}{SetDirection()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Set\+Direction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{dir\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set the Direction for Rpcar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dir\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a4ab53a56d45b70e57c55d9d8fad3824f}\label{classRPcar_a4ab53a56d45b70e57c55d9d8fad3824f}} 
+\index{RPcar@{RPcar}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Set\+Position (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{pos\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Set the position for Rpcar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos\+\_\+} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+\mbox{\Hypertarget{classRPcar_a22ff4d3b793a21cc7a99e0fcdf85a1b2}\label{classRPcar_a22ff4d3b793a21cc7a99e0fcdf85a1b2}} 
+\index{RPcar@{RPcar}!Update@{Update}}
+\index{Update@{Update}!RPcar@{RPcar}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void R\+Pcar\+::\+Update (\begin{DoxyParamCaption}\item[{double}]{dt,  }\item[{std\+::vector$<$ \mbox{\hyperlink{classIEntity}{I\+Entity}} $\ast$ $>$}]{scheduler }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the details for entitys iin scheduler. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dt} & \\
+\hline
+{\em scheduler} & \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \mbox{\hyperlink{classIEntity}{I\+Entity}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/felix/\+Desktop/umn-\/csci-\/3081-\/\+F22/\+Team-\/010-\/37-\/homework04-\/main/libs/transit/include/R\+Pcar.\+h\item 
+/home/felix/\+Desktop/umn-\/csci-\/3081-\/\+F22/\+Team-\/010-\/37-\/homework04-\/main/libs/transit/src/R\+Pcar.\+cc\end{DoxyCompactItemize}

@@ -1,0 +1,4 @@
+<map id="CarFactory" name="CarFactory">
+<area shape="rect" id="node1" title="this class is for CarFactory" alt="" coords="15,80,107,107"/>
+<area shape="rect" id="node2" href="$classIEntityFactory.html" title="this class is for the IEntityFactory" alt="" coords="5,5,117,32"/>
+</map>

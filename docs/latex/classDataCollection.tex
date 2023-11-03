@@ -1,0 +1,145 @@
+\hypertarget{classDataCollection}{}\doxysection{Data\+Collection Class Reference}
+\label{classDataCollection}\index{DataCollection@{DataCollection}}
+
+
+this class is used to collect data about the \mbox{\hyperlink{classCar}{Car}} Accident  
+
+
+
+
+{\ttfamily \#include $<$Data\+Collection.\+h$>$}
+
+
+
+Collaboration diagram for Data\+Collection\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=268pt]{classDataCollection__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataCollection_ad827a7c32193b2852a54ba72036865fb}\label{classDataCollection_ad827a7c32193b2852a54ba72036865fb}} 
+\mbox{\hyperlink{classDataCollection_ad827a7c32193b2852a54ba72036865fb}{Data\+Collection}} (\mbox{\hyperlink{classDataCollection}{Data\+Collection}} \&other)=delete
+\begin{DoxyCompactList}\small\item\em Parameter constructor. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataCollection_aff579f0550681a8ad0c652f999cb3325}\label{classDataCollection_aff579f0550681a8ad0c652f999cb3325}} 
+void \mbox{\hyperlink{classDataCollection_aff579f0550681a8ad0c652f999cb3325}{operator=}} (const \mbox{\hyperlink{classDataCollection}{Data\+Collection}} \&)=delete
+\begin{DoxyCompactList}\small\item\em operator \char`\"{}=\char`\"{} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDataCollection_a39ad627b4508fa6af1e02179b1442daa}{Output\+Csv}} (string \mbox{\hyperlink{classDataCollection_a6d3b8b6c0a33735d943bb96c74495731}{filename}}, \mbox{\hyperlink{classVector3}{Vector3}} position)
+\begin{DoxyCompactList}\small\item\em Write details of the crash in to the csv file. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataCollection_ae46556e87e13464ae8f5f9a425f7f2d7}\label{classDataCollection_ae46556e87e13464ae8f5f9a425f7f2d7}} 
+void \mbox{\hyperlink{classDataCollection_ae46556e87e13464ae8f5f9a425f7f2d7}{Incre\+Num\+Crash}} ()
+\begin{DoxyCompactList}\small\item\em Count the total number of the crash that was happend. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDataCollection_aaf717a882a20b169cfd383194cc05a0c}{Settime}} (string tmp)
+\begin{DoxyCompactList}\small\item\em Save the crash time. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classDataCollection_a01674e7712c3026dc74f66cc601e688b}{Getfilename}} ()
+\begin{DoxyCompactList}\small\item\em Get the csv file name. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDataCollection_a1f30167d4a3191e88e2e4917dcd0326f}{Setcarname}} (string tmp)
+\begin{DoxyCompactList}\small\item\em Save the name of the car that just crash. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataCollection_aef43b03365c555abe50ee3ef2ee0c2b1}\label{classDataCollection_aef43b03365c555abe50ee3ef2ee0c2b1}} 
+static \mbox{\hyperlink{classDataCollection}{Data\+Collection}} $\ast$ {\bfseries Get\+Instance} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataCollection_a9b9255ce56dbe9bb37184cd81b46f1f7}\label{classDataCollection_a9b9255ce56dbe9bb37184cd81b46f1f7}} 
+\mbox{\hyperlink{classDataCollection_a9b9255ce56dbe9bb37184cd81b46f1f7}{Data\+Collection}} ()
+\begin{DoxyCompactList}\small\item\em constructor. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataCollection_aad6bdff7a81cae6ed77d987cedb1da80}\label{classDataCollection_aad6bdff7a81cae6ed77d987cedb1da80}} 
+string \mbox{\hyperlink{classDataCollection_aad6bdff7a81cae6ed77d987cedb1da80}{curtime}}
+\begin{DoxyCompactList}\small\item\em curtime \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataCollection_a6d3b8b6c0a33735d943bb96c74495731}\label{classDataCollection_a6d3b8b6c0a33735d943bb96c74495731}} 
+string \mbox{\hyperlink{classDataCollection_a6d3b8b6c0a33735d943bb96c74495731}{filename}}
+\begin{DoxyCompactList}\small\item\em filename \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataCollection_aac01c5d458a5f5aef7554f81d996b5a7}\label{classDataCollection_aac01c5d458a5f5aef7554f81d996b5a7}} 
+int \mbox{\hyperlink{classDataCollection_aac01c5d458a5f5aef7554f81d996b5a7}{num\+Crash}}
+\begin{DoxyCompactList}\small\item\em tolat number of crash happend \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classDataCollection_ac08f38ff739cdafcd9fc8573fd914900}\label{classDataCollection_ac08f38ff739cdafcd9fc8573fd914900}} 
+string \mbox{\hyperlink{classDataCollection_ac08f38ff739cdafcd9fc8573fd914900}{carname}}
+\begin{DoxyCompactList}\small\item\em The name of car that crash. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Static Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classDataCollection_af7b1f9c4dfa488b3f26fefb434b8429b}\label{classDataCollection_af7b1f9c4dfa488b3f26fefb434b8429b}} 
+static \mbox{\hyperlink{classDataCollection}{Data\+Collection}} $\ast$ \mbox{\hyperlink{classDataCollection_af7b1f9c4dfa488b3f26fefb434b8429b}{Data\+Collection\+\_\+}} = nullptr
+\begin{DoxyCompactList}\small\item\em Data\+Collection\+\_\+. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+this class is used to collect data about the \mbox{\hyperlink{classCar}{Car}} Accident 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classDataCollection_a01674e7712c3026dc74f66cc601e688b}\label{classDataCollection_a01674e7712c3026dc74f66cc601e688b}} 
+\index{DataCollection@{DataCollection}!Getfilename@{Getfilename}}
+\index{Getfilename@{Getfilename}!DataCollection@{DataCollection}}
+\doxysubsubsection{\texorpdfstring{Getfilename()}{Getfilename()}}
+{\footnotesize\ttfamily string Data\+Collection\+::\+Getfilename (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Get the csv file name. 
+
+\begin{DoxyReturn}{Returns}
+filename 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classDataCollection_a39ad627b4508fa6af1e02179b1442daa}\label{classDataCollection_a39ad627b4508fa6af1e02179b1442daa}} 
+\index{DataCollection@{DataCollection}!OutputCsv@{OutputCsv}}
+\index{OutputCsv@{OutputCsv}!DataCollection@{DataCollection}}
+\doxysubsubsection{\texorpdfstring{OutputCsv()}{OutputCsv()}}
+{\footnotesize\ttfamily void Data\+Collection\+::\+Output\+Csv (\begin{DoxyParamCaption}\item[{string}]{filename,  }\item[{\mbox{\hyperlink{classVector3}{Vector3}}}]{position }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Write details of the crash in to the csv file. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em filename} & \\
+\hline
+\mbox{\texttt{ in}}  & {\em position} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDataCollection_a1f30167d4a3191e88e2e4917dcd0326f}\label{classDataCollection_a1f30167d4a3191e88e2e4917dcd0326f}} 
+\index{DataCollection@{DataCollection}!Setcarname@{Setcarname}}
+\index{Setcarname@{Setcarname}!DataCollection@{DataCollection}}
+\doxysubsubsection{\texorpdfstring{Setcarname()}{Setcarname()}}
+{\footnotesize\ttfamily void Data\+Collection\+::\+Setcarname (\begin{DoxyParamCaption}\item[{string}]{tmp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Save the name of the car that just crash. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em tmp} & \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classDataCollection_aaf717a882a20b169cfd383194cc05a0c}\label{classDataCollection_aaf717a882a20b169cfd383194cc05a0c}} 
+\index{DataCollection@{DataCollection}!Settime@{Settime}}
+\index{Settime@{Settime}!DataCollection@{DataCollection}}
+\doxysubsubsection{\texorpdfstring{Settime()}{Settime()}}
+{\footnotesize\ttfamily void Data\+Collection\+::\+Settime (\begin{DoxyParamCaption}\item[{string}]{tmp }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Save the crash time. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\texttt{ in}}  & {\em tmp} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/felix/\+Desktop/umn-\/csci-\/3081-\/\+F22/\+Team-\/010-\/37-\/homework04-\/main/libs/transit/include/Data\+Collection.\+h\item 
+/home/felix/\+Desktop/umn-\/csci-\/3081-\/\+F22/\+Team-\/010-\/37-\/homework04-\/main/libs/transit/src/Data\+Collection.\+cc\end{DoxyCompactItemize}
