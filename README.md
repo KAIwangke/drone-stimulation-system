@@ -185,3 +185,5 @@ The DSS provides a comprehensive suite of graphical tools for visualizing simula
 
 These visualization tools are not only essential for analysis but also serve as an excellent educational resource for those looking to understand drone dynamics better.
 
+## Course Information
+This project has been developed as part of the coursework for CSCI3081W Program Design and Development Fall 2022. Principles of programming design/analysis. Concepts in software development. Uses a programming project to illustrate key ideas in program design/development, data structures, debugging, files, I/O, testing, and coding standards. Credit to Keyang Xuan, Chenyi Yang, Felix Su and Ke Wang. 
