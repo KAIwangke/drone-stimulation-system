@@ -1,7 +1,27 @@
 # Drone Stimulation System
 
 ## Overview
-The Drone Stimulation System (DSS) is an intricate and comprehensive simulation framework designed for the study and analysis of drones and aerial vehicles. This system is a testament to the fusion of cutting-edge technology and innovative engineering, offering a platform to simulate, analyze, and understand the dynamics of drone operations. This document serves as a comprehensive guide to understanding, installing, and utilizing the DSS.
+
+A project to simulate the behavior of the drone and robots. Set the pickup location and the final destination of the robot, and afterward the drone will come and pick up the robot toward their destination. Not only the transportation simulation but you will be able to decide what to do with the robot's behavior when the passenger arrived at ther destination or if the drone is too late to pickup. The Drone Stimulation System (DSS) is an intricate and comprehensive simulation framework designed for the study and analysis of drones and aerial vehicles. This system is a testament to the fusion of cutting-edge technology and innovative engineering, offering a platform to simulate, analyze, and understand the dynamics of drone operations. This document serves as a comprehensive guide to understanding, installing, and utilizing the DSS.
+
+#### What is in this directory?
+<ul>
+  <li>  <code>README.md</code>
+  <li>  <code>.gitignore</code>
+  <li>  <code>app</code> folder, which contains:
+    <ul>
+      <li>  <code>graph_viewer</code> : producing graph visualization
+      <li>  <code>transit_service</code> : visualization
+    </ul>
+  <li>  <code>libs</code> folder, which contains:
+    <ul>
+      <li>  <code>routing</code> : finding the paths
+      <li>  <code>trainsit</code> : entities properties
+    </ul>
+  <li>  <code>dependencies</code>
+</ul>
+
+
 
 ### Philosophy
 At its core, the DSS is built around the philosophy of modular design, allowing for flexible integration of various components and subsystems. This design philosophy ensures that the system is not only robust but also adaptable to the ever-evolving landscape of drone technology.
@@ -65,6 +85,74 @@ To get the DSS up and running on your system, follow these steps:
 ### Step-by-Step Installation
 1. **Clone the Repository**: Use Git to clone the DSS repository to your desired location.
 2. **Install Dependencies**: Navigate to the `dependencies` directory. Follow the detailed instructions to install all necessary dependencies, ensuring compatibility and proper functioning.
+
+
+## Getting Started
+
+Here is a quick overview of how to run the visualization (If you are using ssh, navigate to ssh category below):
+
+    ```bash
+    # Go to the project directory
+    cd /path/to/repo/project
+    
+    # Build the project
+    make -j
+    
+    # Run the project (./build/web-app <port> <web folder>)
+    ./build/bin/transit_service 8081 apps/transit_service/web/
+    ```
+    
+Navigate to http://127.0.0.1:8081 and you should see a visualization.
+
+Navigate to http://127.0.0.1:8081/schedule.html and you should see a page to schedule the trips.
+
+Below are instructions that detail how to build and run in several different environments.  
+
+## Getting Started using SSH onto CSE Lab machines
+
+1. SSH into a CSE Lab Machine using **port forwarding** for the UI
+
+   **Note:** If port `8081` is not available, choose a different port (e.g. 8082, 8083, etc...)
+
+    ```bash
+    ssh -L 8081:127.0.0.1:8081 x500@csel-xxxx.cselabs.umn.edu
+    ```
+    
+    Example:
+    ```bash
+    ssh -L 8081:127.0.0.1:8081 kaung006@csel-kh1250-05.cselabs.umn.edu
+    ```
+
+2. Compile the project (within ssh session)
+
+    ```bash
+    cd /path/to/repo/project
+    make -j
+    ```
+    
+ 2. Run project (within ssh session)
+
+    ```bash
+    ./build/bin/transit_service 8081 apps/transit_service/web/
+    ```
+
+5. Navigate to http://127.0.0.1:8081 and you should see a visualization.
+
+6. Navigate to http://127.0.0.1:8081/schedule.html and you should see a page to schedule the trips.
+
+# Simulation
+
+## Schedule
+You will be able to schedule the robots for a ride in this page http://127.0.0.1:8081/schedule.html. 
+
+Type passenger name, select start and end destination, and press `Schedule Trip` button to schedule a trip. 
+
+Now go to 3D Visualization page and select the view of the entities on top right corner.
+
+## 3D Visualization
+You will be able to watch the simulation of the drone and the passenger here http://127.0.0.1:8081.
+
+On top right corner, you can change your camera view into locking the entities.
 
 ## Running the Simulations
 To launch and run simulations in the DSS, follow these instructions:
